@@ -1,0 +1,33 @@
+body{
+    text-align:center !important;
+    background-image: url("pexels-photo-5045981.jpeg");
+    background-position:center;
+    background-size:2200px;
+    overflow:hidden;
+    width:100%;
+}
+#h11{
+    font-family: 'Great Vibes', cursive;
+    font-style:italic;
+    background-color:rgba(128, 128, 128, 0.623);
+    width:fit-content;
+    padding:10px;
+    border-radius: 10px;
+    font-size:45px;
+}
+#p1{
+    font-family: 'Indie Flower', cursive;
+    font-size:16px;
+    background-color:rgba(128, 128, 128, 0.596);
+    width:fit-content;
+    padding:10px;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    font-family: 'Bellota', cursive;
+    font-size:20px;
+    background-color:rgba(128, 128, 128, 0.541);
+    width:100%;
+    font-style:italic;
+}
