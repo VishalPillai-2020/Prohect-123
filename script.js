@@ -24,4 +24,13 @@ function getPoses(results){
         console.log('left wrist x = ' + leftWristX + 'right wrist x = ' + rightWristX + 'Difference' + difference);
     }
 }
+function draw(){
+    noStroke();
+    background("white");
+    textSize(difference);
+    document.getElementById("info").innerHTML = "The current font size is "+ difference+"px";
+    
+    fill("rgb(48,48,48)");
+    text(Vishal, 10, 10 );
 
+}
