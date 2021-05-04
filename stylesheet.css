@@ -31,3 +31,6 @@ footer{
     width:100%;
     font-style:italic;
 }
+canvas{
+    background-color:white;
+    border: 5px inset black;
