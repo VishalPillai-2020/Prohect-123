@@ -31,6 +31,6 @@ function draw(){
     document.getElementById("info").innerHTML = "The current font size is "+ difference+"px";
     
     fill("black");
-    text("Vishal", 10, 10 );
+    text("Vishal", 100, 300 );
 
 }
