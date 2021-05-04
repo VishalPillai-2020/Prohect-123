@@ -21,7 +21,7 @@ function getPoses(results){
         leftwristX = results[0].pose.leftWrist.x;
         rightwristX = results[0].pose.rightWrist.x;
         difference = Math.floor(leftwristX - rightwristX);
-        console.log('left wrist x = ' + leftWristX + 'right wrist x = ' + rightWristX + 'Difference' + difference);
+        console.log('left wrist x = ' + leftwristX + 'right wrist x = ' + rightwristX + 'Difference' + difference);
     }
 }
 function draw(){
@@ -31,6 +31,6 @@ function draw(){
     document.getElementById("info").innerHTML = "The current font size is "+ difference+"px";
     
     fill("rgb(48,48,48)");
-    text(Vishal, 10, 10 );
+    text("Vishal", 10, 10 );
 
 }
