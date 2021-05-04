@@ -30,7 +30,7 @@ function draw(){
     textSize(difference);
     document.getElementById("info").innerHTML = "The current font size is "+ difference+"px";
     
-    fill("rgb(48,48,48)");
+    fill("black");
     text("Vishal", 10, 10 );
 
 }
